@@ -19,9 +19,15 @@ public class TriangleTest {
 	public void calculatePerimetro() {
 		assertEquals(22.5, triangle.calculatePerimetro(), 0.10);
 	}
+
 	@Test
 	public void calculateArea() {
 		assertEquals(45.0, triangle.calculateArea(12.0), 0.10);
 	}
-	
+
+	@Test
+	public void calculateVolume() {
+		assertEquals(225.0, triangle.calculateVolume(12.0, 7.5), 0.10);
+	}
+
 }

@@ -25,5 +25,9 @@ public class Triangle {
 		double area = side * heigh / 2;
 		return area;
 	}
-	
+
+	public double calculateVolume(double heigh, double side) {
+		double volume = ((1.0 / 3.0) * ((side * side) * heigh));
+		return volume;
+	}
 }
