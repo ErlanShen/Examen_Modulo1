@@ -19,5 +19,9 @@ public class TriangleTest {
 	public void calculatePerimetro() {
 		assertEquals(22.5, triangle.calculatePerimetro(), 0.10);
 	}
-
+	@Test
+	public void calculateArea() {
+		assertEquals(45.0, triangle.calculateArea(12.0), 0.10);
+	}
+	
 }
